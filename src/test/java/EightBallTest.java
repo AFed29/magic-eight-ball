@@ -41,4 +41,10 @@ public class EightBallTest {
         eightBall.addAnswer("Maybe");
         assertEquals(4, eightBall.getAnswerCount());
     }
+
+    @Test
+    public void canRemoveAnswer() {
+        eightBall.removeAnswer("Never!");
+        assertEquals(2, eightBall.getAnswerCount());
+    }
 }

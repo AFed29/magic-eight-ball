@@ -31,4 +31,8 @@ public class EightBall {
     public void addAnswer(String answer) {
         this.answers.add(answer);
     }
+
+    public void removeAnswer(String answer) {
+        this.answers.remove(answer);
+    }
 }
