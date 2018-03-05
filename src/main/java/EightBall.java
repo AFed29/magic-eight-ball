@@ -28,4 +28,7 @@ public class EightBall {
         return getAnswerAtIndex(0);
     }
 
+    public void addAnswer(String answer) {
+        this.answers.add(answer);
+    }
 }

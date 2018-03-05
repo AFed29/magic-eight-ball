@@ -35,4 +35,10 @@ public class EightBallTest {
         String randomAnswer = eightBall.getRandomAnswer();
         assertTrue(copy.contains(randomAnswer));
     }
+
+    @Test
+    public void canAddAnswer() {
+        eightBall.addAnswer("Maybe");
+        assertEquals(4, eightBall.getAnswerCount());
+    }
 }
