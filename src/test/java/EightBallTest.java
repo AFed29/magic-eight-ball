@@ -12,11 +12,11 @@ public class EightBallTest {
 
     @Before
     public void before() {
-        ArrayList<String> testStrings = new ArrayList<>();
-        testStrings.add("Most likely");
-        testStrings.add("I don't think so");
-        testStrings.add("Never!");
-        this.eightBall = new EightBall(testStrings);
+        ArrayList<String> testAnswers = new ArrayList<>();
+        testAnswers.add("Most likely");
+        testAnswers.add("I don't think so");
+        testAnswers.add("Never!");
+        this.eightBall = new EightBall(testAnswers);
     }
 
     @Test
